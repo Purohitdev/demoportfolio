@@ -5,13 +5,20 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { BiRightArrow } from "react-icons/bi";
 import { NavLink } from 'react-bootstrap';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+
 
 function Navb() {
+
+ 
   return (
     <div className="outer">
       <Navbar className='nav'>
         <Container>
-          <Navbar.Brand href="#home" className='logo'>Vikas Yadav</Navbar.Brand>
+          <Navbar.Brand href="#home" className='logo'>Devansh</Navbar.Brand>
+      
+
           <Nav className="me-mid   mid">
             <a className='nav-link' href="#Home" data-to-scrollspy-id="Home">Home</a>
             <a className='nav-link'  href="#About" data-to-scrollspy-id="About">About</a>
