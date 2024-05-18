@@ -8,25 +8,25 @@ function About() {
         {
             id: 1,
             title: "Born In",
-            detail: "East Legon Accra, Ghana"
+            detail: "  Maharashtra, India."
 
         },
         {
             id: 2,
 
-            title: "Experience",
-            detail: "15 Years Experience"
+            title: "Study",
+            detail: "Currently given HSC exam."
         },
         {
             id: 3,
             title: "Date Of Birth",
-            detail: "20 December, 1994"
+            detail: "16 July, 2006"
         },
         {
             id: 4,
 
             title: "Language",
-            detail: "German, English, Spanish"
+            detail: " English , Hindi , Marwadi"
         },
     ]
 
@@ -39,10 +39,7 @@ function About() {
 
                     </div>
                     <div className="detail innerrr">
-                        <p> Hello, my name’s Nikolas Raio, I’m a bay area
-                            born designer based in Ghana. I’m currently at
-                            Envoy as a senior web designer creating connected
-                            brands, product commerce, and web experiences.</p>
+                        <p> Hello, my name’s Devansh Rajpurohit, I’m a Mumbai-born designer based in Bhayender. I’m currently learning Java for backend development..</p>
 
                     </div>
                     <div className="ani innerrr">
@@ -75,13 +72,13 @@ function About() {
 
 
 
-                                    <div className="about-box">
-                                        <p>{elem.title}</p>
-                                        <h6>
-                                            {elem.detail}
-                                        </h6>
-                                    </div>
-        
+                                <div className="about-box">
+                                    <p>{elem.title}</p>
+                                    <h6>
+                                        ~{elem.detail}
+                                    </h6>
+                                </div>
+
 
 
 
