@@ -52,9 +52,9 @@ function WhiteComp() {
       <div className="main-white">
         <Container>
           <div className="upper-white" >
-            <p>   04 // CUSTOMERS</p>
-            <h6>My journey began with a fascination for the digital world to make it more beautiful and accessible. With a degree in Interaction Design and over a decade of experience,</h6>
-            <p className='right' >(( PROJECT ALL ))</p>
+            <p>   04 // CAREER GOALS</p>
+            <h6>My journey began with a fascination for the digital world to make it more beautiful and accessible , I like to make ui more user frindly and even look cool ...</h6>
+            <p className='right' >(( PLANS ))</p>
           </div>
           <Marquee>
             {
