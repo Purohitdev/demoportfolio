@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import p1 from '../../image/profile-pic (1).png'
+import p1 from '../../image/profile-pic.png'
 import p2 from '../../image/star1.png'
 import p3 from '../../image/rudh.jpg'
 import { FaFacebookF } from "react-icons/fa";
