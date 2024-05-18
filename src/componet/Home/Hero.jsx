@@ -2,30 +2,37 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { RiArrowRightSFill } from "react-icons/ri";
 import { HiMiniArrowLongDown } from "react-icons/hi2";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+
 
 
 
 function Hero() {
+
+ 
+
   return (
-    <div className="main-hero"  id="Home">
+    <div className="main-hero" id="Home">
       <Container>
         <div className="inner-hero">
-          <div className="inner-left">
-            <h1 className='trans'>
+          <div className="inner-left left-up">
+            <h1 className='trans try'>
               Hello world! I'm
             </h1>
-            <h1>
-              Vikas Yadav
+            <h1 className='try2'>
+              {/* Vikas Yadav */}
+              Devansh Rajpurohit
               {/* khushboo chaudhary */}
               <span > <RiArrowRightSFill /></span>
             </h1>
 
           </div>
-          <div className="inner-right">
-            <h1>
+          <div className="inner-right right-up">
+            <h1 className='try'>
               Full Stack &nbsp;dev
             </h1>
-            <h1 className='trans'>
+            <h1 className='trans try2n'>
               Based in Mumbai
             </h1>
 
