@@ -146,6 +146,7 @@ html {
     padding: 0px 70px;
     font-family: "Montserrat", sans-serif;
 
+
 }
 
 .inner-hero-down h4 {
@@ -195,6 +196,8 @@ html {
     height: 100%;
     width: 100%;
     border-radius: 35px;
+    display: flex;
+    justify-content: center;
 }
 
 .port-detail a{
@@ -264,7 +267,26 @@ html {
 
 .inner-mid img {
     height: 100%;
+    width: 130%;
+    mix-blend-mode:difference;
+    border-radius: 230px
+    
+   
+}
+
+/* .logo img{
+    height: 100%;
     width: 100%;
+
+
+} */
+
+.stay a{
+    text-decoration: none;
+}
+
+::selection{
+    background-color: rgba(255, 255, 255, 0.164);
 }
 
 .icon-box:hover {
