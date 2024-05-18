@@ -6,18 +6,18 @@ function Whitemarq() {
     const marqueedata =[
         {
           id:1,
-          title:"2k+ happy clients",
+          title:"Fronted dev",
           img:`${st1}`
         
         },
         {
           id:2,
-          title:"30+ team members",
+          title:"learning java",
           img:`${st1}`
         },
         {
           id:3,
-          title:"3k+ success projects",
+          title:"17 Year old developer",
           img:`${st1}`
         },
    
