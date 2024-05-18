@@ -24,7 +24,7 @@ function Home() {
   {/* <Ourserv/> */}
   <Port/>
   <WhiteComp/>
-  <Plans/>
+  {/* <Plans/> */}
   <Contact/>
   <Smallfoot/>
   {/* </ScrollSpy> */}
