@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import p1 from '../../image/main1.png'
+import p1 from '../../image/profile-pic (1).png'
 import p2 from '../../image/star1.png'
 import p3 from '../../image/rudh.jpg'
 import { FaFacebookF } from "react-icons/fa";
@@ -24,19 +24,17 @@ function Picsec() {
                         <div className="upper-inner">
                             <img src={p2} alt="" />
                             <h1>  about me</h1>
-                            <p>Hello, my name’s Nikolas, I'm a web
-                                designer and developer.
-                                Duis dolor in reprehenderit velit
-                                th esse cillum fugiat nulla pariatur. </p>
+                            <p>Hello, my name’s Devnash, a 17-year-old frontend developer Based in Mumbai
+                                 </p>
                         </div>
                         <div className="upper-inner pt">
                             <img src={p2} alt="" />
                             <h1>  what i do</h1>
                             <p>Website Design & Logo /
-                                Mobile Application Design /
-                                UI/UX Mobile Design /
-                                Wev Developments /
-                                Brand identity</p>
+                                UI/UX  Design /
+                                Fronted dev .
+
+                               </p>
 
                         </div>
 
@@ -50,8 +48,9 @@ function Picsec() {
                             <img src={p2} alt="" />
 
                             <h1> contact me</h1>
-                            <p>Address: 45 Kofi Annan St, Ghana Email: contact@example.com nikolasraio@gmail.com
-                                Telephone number: 004-400-45</p>
+                            <p>
+                             Email: devanshrajpurohit1@gmail.com
+                                 Number:+91-9653364287</p>
 
 
                         </div>
@@ -85,12 +84,12 @@ function Picsec() {
 
                                 </div>
                                 </a>
-                                <a href="https://dribbble.com/" target='_blank'>
+                                {/* <a href="https://dribbble.com/" target='_blank'>
                                 <div className="icon-box marr">
                                     <FaDribbble />
 
                                 </div >
-                                </a>
+                                </a> */}
                             </div>
 
                         </div>
