@@ -17,6 +17,27 @@ function Port() {
     const potdata = [
         {
             id: 1,
+            img:`${otk}`,
+            title: "React (rest api)",
+            detail: "Otaku",
+            a:"https://otakuu.vercel.app/",
+        },
+        {
+            id: 2,
+            img:`${dem}`,
+            title: "React",
+            detail: "Potfolio Demo",
+            a:"",
+        },
+        {
+            id: 3,
+            img:`${man}`,
+            title: "React (crud/login)",
+            detail: "management",
+            a:"https://crudd-login.vercel.app/",
+        },
+        {
+            id: 4,
             img:`${edu}`,
             title: "html/css",
             detail: "EduVibe",
@@ -24,47 +45,27 @@ function Port() {
 
         },
         {
-            id: 2,
+            id: 5,
             img:`${gld}`,
             title: "html/css/bootsrap",
             detail: "GoldSmith",
-            a:"",
+            a:"https://edu-pi.vercel.app/index.html",
         },
         {
-            id: 3,
+            id: 6,
             img:`${js}`,
             title: "javascript",
             detail: "Form Maker",
             a:"",
         },
         {
-            id: 4,
-            img:`${otk}`,
-            title: "React (rest api)",
-            detail: "Otaku",
-            a:"https://otakuu.vercel.app/",
-        },
-        {
-            id: 5,
-            img:`${dem}`,
-            title: "React",
-            detail: "Potfolio Demo",
-            a:"",
-        },
-        {
-            id: 6,
+            id: 7,
             img:`${kal}`,
             title: "javascript  (api)",
             detail: "Kalles",
             a:"",
         },
-        {
-            id: 7,
-            img:`${man}`,
-            title: "React (crud/login)",
-            detail: "management",
-            a:"https://crudd-login.vercel.app/",
-        },
+     
     ]
     return (
 
@@ -72,17 +73,17 @@ function Port() {
             <Container>
                 <div className="upper-pot">
                     <p>   03 // LET ME SHOW YOU</p>
-                    <p className='right'>(( PROJECT ALL ))</p>
+                    <p className='right'>(( ALL PROJECTS ))</p>
                 </div>
             </Container>
             <div className="down-mar">
                 <Marquee>
-                    <h1>work</h1>
-                    <h1 className='vis'>work</h1>
-                    <h1>work</h1>
-                    <h1 className='vis'>work</h1>
-                    <h1>work</h1>
-                    <h1 className='vis'>work</h1>
+                <h1>Projects</h1>
+                    <h1 className='vis'>Projects</h1>
+                    <h1>Projects</h1>
+                    <h1 className='vis'>Projects</h1>
+                    <h1>Projects</h1>
+                    <h1 className='vis'>Projects</h1>
                 </Marquee>
             </div>
             <div className="port-detail">
