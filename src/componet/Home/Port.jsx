@@ -41,7 +41,7 @@ function Port() {
             img:`${edu}`,
             title: "html/css",
             detail: "EduVibe",
-            a:"",
+            a:"https://gold-umber.vercel.app/",
 
         },
         {
