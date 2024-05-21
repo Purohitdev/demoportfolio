@@ -36,8 +36,15 @@ function Port() {
             detail: "management",
             a: "https://crudd-login.vercel.app/",
         },
-        {
+           {
             id: 4,
+            img: `${man}`,
+            title: "Moveblog (Drag animation)",
+            detail: "Drag animation blog",
+            a: "https://moveblog.vercel.app/",
+        },
+        {
+            id: 5,
             img: `${edu}`,
             title: "html/css",
             detail: "EduVibe",
@@ -45,21 +52,21 @@ function Port() {
 
         },
         {
-            id: 5,
+            id: 6,
             img: `${gld}`,
             title: "html/css/bootsrap",
             detail: "GoldSmith",
             a: "https://edu-pi.vercel.app/index.html",
         },
         {
-            id: 6,
+            id: 7,
             img: `${js}`,
             title: "javascript",
             detail: "Form Maker",
             a: "https://formjs-nu.vercel.app/",
         },
         {
-            id: 7,
+            id: 8,
             img: `${kal}`,
             title: "javascript  (api)",
             detail: "Kalles",
