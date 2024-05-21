@@ -23,8 +23,8 @@ function Navb() {
             <a className='nav-link' href="#Home" data-to-scrollspy-id="Home">Home</a>
             <a className='nav-link'  href="#About" data-to-scrollspy-id="About">About</a>
             <a className='nav-link'  href="#port" data-to-scrollspy-id="port">portfolio</a>
-{/*            <a className='nav-link'  href="#services" data-to-scrollspy-id="services">services</a>
-            <a className='nav-link' href="#contact" data-to-scrollspy-id="contact">contact</a>  */}
+{/*            <a className='nav-link'  href="#services" data-to-scrollspy-id="services">services</a> */}
+            <a className='nav-link' href="#contact" data-to-scrollspy-id="contact">contact</a>  
           </Nav>
           <div className="but">
 
