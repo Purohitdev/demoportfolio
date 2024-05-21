@@ -11,8 +11,9 @@
     border-bottom: 1px solid #343434;
     border-radius: 0px 0px 35px 35px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(0, 0, 0, 0.284)) , url(https://nikolas-next.vercel.app/_next/static/media/pattern.25aa6280.png);
-
+    /* opacity: 0; */
     width: 100%;
+    background-color: red !important;
 
 }
 
@@ -98,6 +99,7 @@ html {
     font-family: "Bebas Neue", sans-serif;
     color: white;
     padding-bottom: 50px;
+    padding-top: 250px;
 
 }
 
@@ -121,7 +123,7 @@ html {
 }
 
 .inner-hero {
-    padding: 210px 70px 100px 70px;
+    padding: 0px 70px 100px 70px;
     display: flex;
     justify-content: space-between;
 
@@ -840,11 +842,15 @@ html {
 .con1 {
     height: 100%;
     width: 100%;
-    border-right: 1px solid rgba(128, 128, 128, 0.356);
+    /* border-right: 1px solid rgba(128, 128, 128, 0.356); */
     padding: 30px;
     padding-top: 60px;
 
 
+}
+
+.bod{
+    border-right: 1px solid rgba(128, 128, 128, 0.356);
 }
 
 .stay {
@@ -1245,8 +1251,8 @@ html {
 
     .flexxx button{
         position: absolute;
-        top: -30px;
-        right: 42%;
+        top: -151px;
+        right: -33px;
         padding: 24px;
     }
 
@@ -1258,6 +1264,15 @@ html {
         margin-left:5px;
         transform: translateX(-25px);
     }
+
+    /* .inner-hero{
+        padding-top: 0px;
+    } */
+
+    .main-hero{
+        padding-top: 0px;
+    }
+
 
 }
 
@@ -1351,6 +1366,7 @@ html {
         padding-left: 0px;
     }
 
+ 
 
 
 
@@ -1374,3 +1390,4 @@ html {
     }
 
 }
+
