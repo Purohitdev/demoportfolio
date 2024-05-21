@@ -6,6 +6,7 @@ import edu from '../../image/edu.avif'
 import gld from '../../image/goldsmith.avif'
 import otk from '../../image/otaku.png'
 import kal from '../../image/kales.png'
+import bol from '../../image/blog.png'
 import dem from '../../image/Screenshot 2024-05-02 at 8.08.52 PM.png'
 import js from "../../image/jsform.jpeg"
 import man from "../../image/manag.png"
@@ -38,7 +39,7 @@ function Port() {
         },
            {
             id: 4,
-            img: `${man}`,
+            img: `${bol}`,
             title: "Moveblog (Drag animation)",
             detail: "Drag animation blog",
             a: "https://moveblog.vercel.app/",
