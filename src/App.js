@@ -86,15 +86,15 @@ function App() {
 
     })
 
-    t3.from(".about-box", {
-      y: 30,
-      opacity: 0,
-      delay: 0,
-      duration: 0.01,
-      stagger: 0.01,
+    // t3.from(".about-box", {
+    //   y: 30,
+    //   opacity: 0,
+    //   delay: 0,
+    //   duration: 0.01,
+    //   stagger: 0.01,
 
 
-    })
+    // })
 
 
 
