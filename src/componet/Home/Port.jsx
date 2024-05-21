@@ -40,7 +40,7 @@ function Port() {
            {
             id: 4,
             img: `${bol}`,
-            title: "Moveblog (Drag animation)",
+            title: "React (Drag animation)",
             detail: "Drag animation blog",
             a: "https://moveblog.vercel.app/",
         },
