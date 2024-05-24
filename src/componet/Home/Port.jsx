@@ -69,9 +69,9 @@ function Port() {
         {
             id: 8,
             img: `${kal}`,
-            title: "javascript  (api)",
+            title: "javascript (api/nav tabs)",
             detail: "Kalles",
-            a: "",
+            a: "https://kalles.vercel.app/",
         },
 
     ]
