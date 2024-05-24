@@ -26,7 +26,7 @@ function Port() {
         {
             id: 2,
             img: `${dem}`,
-            title: "React",
+            title: "React (GSAP)",
             detail: "Potfolio Demo",
             a: "",
         },
