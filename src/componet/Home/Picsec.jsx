@@ -8,6 +8,8 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
+import { LuGithub } from "react-icons/lu";
+
 
 
 
@@ -72,7 +74,7 @@ function Picsec() {
                                     </div>
                                 </a>
 
-                                <a href="https://www.instagram.com/purohit.devuu/" target='_blank'>
+                                <a href="https://www.instagram.com/hoi.devu/" target='_blank'>
                                 <div className="icon-box marr">
                                     <FaInstagram />
 
@@ -84,12 +86,11 @@ function Picsec() {
 
                                 </div>
                                 </a>
-                                {/* <a href="https://dribbble.com/" target='_blank'>
+                                <a href="https://github.com/Purohitdev" target='_blank'>
                                 <div className="icon-box marr">
-                                    <FaDribbble />
-
+                                    <LuGithub />                                   
                                 </div >
-                                </a> */}
+                                </a>
                             </div>
 
                         </div>
