@@ -340,6 +340,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 40%;
+    overflow: hidden;
 }
 
 .detail p {
