@@ -1121,6 +1121,12 @@ html {
         flex-direction: column;
     }
 
+    .icon-box{
+        height:30px;
+        width:30px;
+      font-size: 10px;
+    }
+
  
 
     .inner-hero h1 {
