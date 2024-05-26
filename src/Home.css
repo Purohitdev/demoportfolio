@@ -132,6 +132,7 @@ html {
 .inner-hero h1 {
     font-size: 70px;
     line-height: 60px;
+    overflow: hidden;
 }
 
 .inner-right {
@@ -243,6 +244,7 @@ html {
 
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .upper-inner:hover h1 {
