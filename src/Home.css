@@ -1178,7 +1178,7 @@ html {
     }
 
     .ani {
-        adding-top: 23px;
+        padding-top: 23px;
         width: 144%;
         
     }
@@ -1286,7 +1286,7 @@ html {
     }
 
     .ani, .pg{
-        width: 45%;
+        width: 100%;
     }
 
 
