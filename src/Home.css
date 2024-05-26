@@ -126,6 +126,7 @@ html {
     padding: 0px 70px 100px 70px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 
 }
 
