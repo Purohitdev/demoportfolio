@@ -201,6 +201,7 @@ html {
     border-radius: 35px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .port-detail a{
