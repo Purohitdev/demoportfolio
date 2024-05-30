@@ -7,7 +7,7 @@ function Smallfoot() {
    <div className="foot">
     <div className="flexxx">
         <p> 2024 - All Rights Reserved to dev </p>
-        <a className='nav-link' href="#Home">
+        <a className='link' href="#Home">
         <button>
         <FaArrowUp />
         </button>
