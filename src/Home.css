@@ -32,8 +32,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow-x:hidden
+    /* overflow-x:hidden */
 }
+
+
 
 .nav-link:focus,
 .nav-link:hover {
@@ -208,6 +210,7 @@ html {
 .port-detail a{
     text-decoration: none;
 }
+
 
 .inner-left-picsec img {
     padding-bottom: 30px;
@@ -976,7 +979,6 @@ html {
     height: 120px;
     background-color: #161818;
     background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(0, 0, 0, 0.284)) , url(https://nikolas-next.vercel.app/_next/static/media/pattern.25aa6280.png);
-
 }
 
 .flexxx {
@@ -993,6 +995,7 @@ html {
     background-color: #FFBD4A;
     border: none;
     border-radius: 10px;
+    
 }
 
 .flexxx a {
@@ -1121,6 +1124,17 @@ html {
         flex-direction: column;
     }
 
+    .port-detail{
+        overflow-x: hidden;
+    }
+
+    .ani, .pg{
+        width: 100%;
+    }
+
+ 
+    
+
     .icon-box{
         height:30px;
         width:30px;
@@ -1179,8 +1193,12 @@ html {
 
     .ani {
         padding-top: 23px;
-        width: 144%;
+        width: 100%;
         
+    }
+
+    .about-main{
+        overflow-x: hidden;
     }
 
     .lower-about {
@@ -1285,9 +1303,7 @@ html {
         padding-top: 0px;
     }
 
-    .ani, .pg{
-        width: 140%;
-    }
+  
 
 
 }
@@ -1406,4 +1422,3 @@ html {
     }
 
 }
-
