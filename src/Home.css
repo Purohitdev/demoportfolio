@@ -1194,6 +1194,7 @@ html {
     .ani {
         padding-top: 23px;
         width: 100%;
+         transform: translateX(70px)
         
     }
 
