@@ -15,7 +15,7 @@ function About() {
             id: 2,
 
             title: "Study",
-            detail: "Currently given HSC exam."
+            detail: "Hsc-72%."
         },
         {
             id: 3,
