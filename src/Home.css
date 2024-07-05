@@ -978,7 +978,7 @@ html {
 .foot {
     height: 120px;
     background-color: #161818;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(0, 0, 0, 0.284)) , url(https://nikolas-next.vercel.app/_next/static/media/pattern.25aa6280.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(0, 0, 0, 0.284)) , url(./image/pattern.25aa6280.png);
 }
 
 .flexxx {
