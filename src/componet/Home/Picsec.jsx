@@ -59,7 +59,7 @@ function Picsec() {
                         <div className="upper-inner right pt ">
                             <img src={p2} alt="" />
 
-                            <h1>  find with mne</h1>
+                            <h1>  find me on</h1>
                             <div className="icon-div " id="About" >
                                 <a href="https://www.facebook.com/jitesh.rajpurohit.140/" target='_blank'>
                                     <div className="icon-box marr">
