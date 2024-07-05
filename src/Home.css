@@ -172,7 +172,7 @@ html {
 
     border-radius: 35px;
     background-color: #1B1D1E;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.663),rgba(0, 0, 0, 0.284)) , url(https://nikolas-next.vercel.app/_next/static/media/pattern.25aa6280.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.663),rgba(0, 0, 0, 0.284)) , url(./image/pattern.25aa6280.png);
     /* opacity: 1; */
     display: flex;
     justify-content: space-around;
