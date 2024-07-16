@@ -609,7 +609,7 @@ html {
 }
 
 .img-boc {
-    height: 210px;
+    height: 300px;
     width: 100%;
     /* border: 1px solid rgba(128, 128, 128, 0.248); */
     box-shadow: rgba(120, 120, 121, 0.15) 0px 48px 100px 0px;
@@ -1130,6 +1130,10 @@ html {
 
     .ani, .pg{
         width: 100%;
+    }
+
+    .img-boc{
+       height:210px;
     }
 
  
