@@ -10,6 +10,9 @@ import bol from '../../image/blog.png'
 import dem from '../../image/Screenshot 2024-05-02 at 8.08.52 PM.png'
 import js from "../../image/jsform.jpeg"
 import man from "../../image/manag.png"
+import devv from "../../image/deevvas.png"
+
+
 
 
 
@@ -75,9 +78,9 @@ function Port() {
         },
         {
             id: 8,
-            img: `${kal}`,
+            img: `${devv}`,
             title: "Html/css",
-            detail: "Dev",
+            detail: "deevvas",
             a: "https://devass-three.vercel.app/",
         },
         
