@@ -73,6 +73,14 @@ function Port() {
             detail: "Kalles",
             a: "https://kalles.vercel.app/",
         },
+        {
+            id: 8,
+            img: `${kal}`,
+            title: "Html/css",
+            detail: "Dev",
+            a: "https://devass-three.vercel.app/",
+        },
+        
 
     ]
     return (
