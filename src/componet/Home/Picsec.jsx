@@ -75,7 +75,7 @@ function Picsec() {
                                     </div>
                                 </a>
 
-                                <a href="https://www.instagram.com/hoi.devu/" target='_blank'>
+                                <a href="https://www.instagram.com/nott.devu/" target='_blank'>
                                 <div className="icon-box marr">
                                     <FaInstagram />
 
