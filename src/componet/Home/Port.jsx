@@ -11,7 +11,7 @@ import dem from '../../image/Screenshot 2024-05-02 at 8.08.52 PM.png'
 import js from "../../image/jsform.jpeg"
 import man from "../../image/manag.png"
 import devv from "../../image/deevvas.png"
-
+import gum from "../../image/deevvas.png"
 
 
 
@@ -83,6 +83,13 @@ function Port() {
             detail: "deevvas",
             a: "https://devass-three.vercel.app/",
         },
+          {
+            id:9,
+            img:`${gum}`,
+            title: "React (GSAP )",
+            detail: "Gumshoes {in progress..}",
+            a:"https://gumshoe-zeta.vercel.app/"
+        }
         
 
     ]
