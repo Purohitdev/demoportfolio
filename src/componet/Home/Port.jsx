@@ -12,6 +12,7 @@ import js from "../../image/jsform.jpeg"
 import man from "../../image/manag.png"
 import devv from "../../image/deevvas.png"
 import gum from "../../image/gum.png"
+import zon from "../../image/zon.png"
 
 
 
@@ -89,8 +90,14 @@ function Port() {
             title: "React (GSAP )",
             detail: "Gumshoes {in progress..}",
             a:"https://gumshoe-zeta.vercel.app/"
+        },
+        {
+            id:10,
+            img:`${zon}`,
+            title: "React + backend ",
+            detail: "zoneis {in progress..}",
+            a:"https://zoneis.vercel.app/"
         }
-        
 
     ]
     return (
