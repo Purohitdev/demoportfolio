@@ -13,6 +13,7 @@ import man from "../../image/manag.png"
 import devv from "../../image/deevvas.png"
 import gum from "../../image/gum.png"
 import zon from "../../image/zon.png"
+import eve from "../../image/evie.png"
 
 
 
@@ -27,13 +28,6 @@ function Port() {
             detail: "Otaku",
             a: "https://otakuu.vercel.app/",
         },
-        // {
-        //     id: 2,
-        //     img: `${dem}`,
-        //     title: "React (GSAP)",
-        //     detail: "Potfolio Demo",
-        //     a: "",
-        // },
         {
             id: 2,
             img: `${man}`,
@@ -84,15 +78,22 @@ function Port() {
             detail: "deevvas",
             a: "https://devass-three.vercel.app/",
         },
+        {
+            id: 9,
+            img: `${eve}`,
+            title: "React",
+            detail: "Evie portfolio",
+            a: "https://eviee.vercel.app/",
+        },
           {
-            id:9,
+            id:10,
             img:`${gum}`,
             title: "React (GSAP )",
             detail: "Gumshoes {in progress..}",
             a:"https://gumshoe-zeta.vercel.app/"
         },
         {
-            id:10,
+            id:11,
             img:`${zon}`,
             title: "React + backend ",
             detail: "zoneis {in progress..}",
