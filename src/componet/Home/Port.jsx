@@ -35,7 +35,7 @@ function Port() {
             detail: "management",
             a: "https://crudd-login.vercel.app/",
         },
-        {
+           {
             id: 3,
             img: `${bol}`,
             title: "React (Drag animation)",
@@ -86,20 +86,20 @@ function Port() {
             a: "https://eviee.vercel.app/",
         },
         {
-            id: 10,
-            img: `${zon}`,
+            id:10,
+            img:`${zon}`,
             title: "React + backend ",
             detail: "zoneis",
-            a: "https://zoneis.vercel.app/"
+            a:"https://zoneis.vercel.app/"
         }
-        , {
-            id: 11,
-            img: `${gum}`,
+         , {
+            id:11,
+            img:`${gum}`,
             title: "React (GSAP )",
             detail: "Gumshoes {in progress..}",
-            a: "https://gumshoe-zeta.vercel.app/"
+            a:"https://gumshoe-zeta.vercel.app/"
         },
-
+      
 
     ]
     return (
@@ -129,25 +129,25 @@ function Port() {
                             potdata.map((elem, index) => {
                                 return (
                                     <Col lg={6}>
-                                        <div className='card-pot'>
-                                            <a href={elem.a} target='_blank'>
-                                                <div className="box-pot">
-                                                    <div className="img-boc">
-                                                        <img src={elem.img} alt="" />
+                                       <div className='card-pot'> 
+                                       <a href={elem.a} target='_blank'>
+                                            <div className="box-pot">
+                                                <div className="img-boc">
+                                                    <img src={elem.img} alt="" />
 
-                                                    </div>
-                                                    <h6> {elem.id} &nbsp; // &nbsp; {elem.title}</h6>
-                                                    <div className="h1-down">
-                                                        <h1> {elem.detail}    </h1>
-                                                        <div className="icon-box-pot">
-                                                            <GoArrowUpRight />
-
-                                                        </div>
-
-                                                    </div>
                                                 </div>
-                                            </a>
-                                        </div>
+                                                <h6> {elem.id} &nbsp; // &nbsp; {elem.title}</h6>
+                                                <div className="h1-down">
+                                                    <h1> {elem.detail}    </h1>
+                                                    <div className="icon-box-pot">
+                                                        <GoArrowUpRight />
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </a>
+                                       </div>
                                     </Col>
                                 )
 

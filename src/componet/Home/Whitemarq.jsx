@@ -17,7 +17,7 @@ function Whitemarq() {
         },
         {
           id:3,
-          title:"17 Year old developer",
+          title:"18 Year old developer",
           img:`${st1}`
         },
    
