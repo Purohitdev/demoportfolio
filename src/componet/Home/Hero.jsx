@@ -30,7 +30,7 @@ function Hero() {
           </div>
           <div className="inner-right right-up">
             <h1 className='try'>
-              Full Stack &nbsp;dev
+              Fronted &nbsp;dev
             </h1>
             <h1 className='trans try2n'>
               Based in Mumbai
@@ -40,7 +40,7 @@ function Hero() {
 
         </div>
         <div className="inner-hero-down">
-          <h4> 01 // 09 - SCROLL <span className='aroow-down'><HiMiniArrowLongDown /></span> </h4>
+          <h4> 01 // 05 - SCROLL <span className='aroow-down'><HiMiniArrowLongDown /></span> </h4>
         </div>
 
       </Container>

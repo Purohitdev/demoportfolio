@@ -101,7 +101,7 @@ function App() {
     const t4 = gsap.timeline({
       scrollTrigger: {
         trigger: ".port-detail ",
-        start: "top 500px",
+        start: "top 600px",
         end: "bottom 0",
         scrub: 1,
       }
@@ -123,8 +123,8 @@ function App() {
     const t5 = gsap.timeline({
       scrollTrigger: {
         trigger: ".main-white ",
-        start: "top 1200px",
-        end: "bottom 0",
+        start: "top 80%",
+        end: "bottom 100%",
         scrub: 1,
       }
     })
