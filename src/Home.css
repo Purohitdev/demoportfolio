@@ -1114,6 +1114,15 @@ html {
     width: 88%;
  }
 
+ .cur{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+ }
+
 
 
 

@@ -123,7 +123,7 @@ function App() {
     const t5 = gsap.timeline({
       scrollTrigger: {
         trigger: ".main-white ",
-        start: "top 80%",
+        start: "top 50%",
         end: "bottom 100%",
         scrub: 1,
       }
