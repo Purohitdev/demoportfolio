@@ -21,48 +21,49 @@ import eve from "../../image/evie.png"
 
 function Port() {
     const potdata = [
+
         {
-            id: 1,
-            img: `${otk}`,
-            title: "React (rest api)",
-            detail: "Otaku",
-            a: "https://otakuu.vercel.app/",
+            id:1,
+            img:`${gum}`,
+            title: "React (GSAP )",
+            detail: "Gumshoes {in progress..}",
+            a:"https://gumshoe-zeta.vercel.app/"
         },
         {
-            id: 2,
-            img: `${man}`,
-            title: "React (crud/login)",
-            detail: "management",
-            a: "https://crudd-login.vercel.app/",
-        },
-           {
+            id:2,
+            img:`${zon}`,
+            title: "React + backend ",
+            detail: "zoneis",
+            a:"https://zoneis.vercel.app/"
+        } ,
+        {
             id: 3,
+            img: `${eve}`,
+            title: "React",
+            detail: "Evie portfolio",
+            a: "https://eviee.vercel.app/",
+        },
+        ,
+           {
+            id: 4,
             img: `${bol}`,
             title: "React (Drag animation)",
             detail: "Drag animation blog",
             a: "https://moveblog.vercel.app/",
         },
         {
-            id: 4,
-            img: `${edu}`,
-            title: "html/css",
-            detail: "EduVibe",
-            a: "https://gold-umber.vercel.app/",
-
-        },
-        {
             id: 5,
-            img: `${gld}`,
-            title: "html/css/bootsrap",
-            detail: "GoldSmith",
-            a: "https://edu-pi.vercel.app/index.html",
+            img: `${man}`,
+            title: "React (crud/login)",
+            detail: "management",
+            a: "https://crudd-login.vercel.app/",
         },
         {
             id: 6,
-            img: `${js}`,
-            title: "javascript",
-            detail: "Form Maker",
-            a: "https://formjs-nu.vercel.app/",
+            img: `${otk}`,
+            title: "React (rest api)",
+            detail: "Otaku",
+            a: "https://otakuu.vercel.app/",
         },
         {
             id: 7,
@@ -73,33 +74,35 @@ function Port() {
         },
         {
             id: 8,
+            img: `${js}`,
+            title: "javascript",
+            detail: "Form Maker",
+            a: "https://formjs-nu.vercel.app/",
+        },
+        {
+            id: 9,
+            img: `${gld}`,
+            title: "html/css/bootsrap",
+            detail: "GoldSmith",
+            a: "https://edu-pi.vercel.app/index.html",
+        },
+        {
+            id: 10,
             img: `${devv}`,
             title: "Html/css",
             detail: "deevvas",
             a: "https://devass-three.vercel.app/",
         },
         {
-            id: 9,
-            img: `${eve}`,
-            title: "React",
-            detail: "Evie portfolio",
-            a: "https://eviee.vercel.app/",
+            id: 11,
+            img: `${edu}`,
+            title: "html/css",
+            detail: "EduVibe",
+            a: "https://gold-umber.vercel.app/",
+
         },
-        {
-            id:10,
-            img:`${zon}`,
-            title: "React + backend ",
-            detail: "zoneis",
-            a:"https://zoneis.vercel.app/"
-        }
-         , {
-            id:11,
-            img:`${gum}`,
-            title: "React (GSAP )",
-            detail: "Gumshoes {in progress..}",
-            a:"https://gumshoe-zeta.vercel.app/"
-        },
-      
+   
+   
 
     ]
     return (
