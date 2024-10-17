@@ -1,5 +1,6 @@
 import Home from './componet/Home/Home';
 import logo from './logo.svg';
+import Shery from 'sheryjs';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
@@ -138,6 +139,8 @@ function App() {
 
     })
 
+
+    Shery.makeMagnet("a", {});
 
 
     // const t6 = gsap.timeline({

@@ -20,7 +20,7 @@
     font-family: "Montserrat", sans-serif;
     color: white !important;
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     width: 100%;
 
 
@@ -1117,10 +1117,12 @@ html {
  .cur{
     height: 30px;
     width: 30px;
-    background-color: white;
     border-radius: 50%;
     position: fixed;
     z-index: 999;
+    border: 1px solid white;
+    transform: translate(-50% ,-50%);
+    mix-blend-mode: difference;
  }
 
 
