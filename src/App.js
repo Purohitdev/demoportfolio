@@ -1,10 +1,12 @@
 import Home from './componet/Home/Home';
 import logo from './logo.svg';
+import { Analytics } from "@vercel/analytics/react"
 import Shery from 'sheryjs';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger)
+
 
 
 function App() {
@@ -199,9 +201,7 @@ function App() {
   return (
     <>
       <Home />
-
-
-
+      <Analytics/>
 
 
     </>
